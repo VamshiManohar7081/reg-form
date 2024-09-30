@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <header>
+        Alumni Membership Application Form
+    </header>
+</center>
+
+    <Center>
+        <form>
+          
+             <label>Name</label>
+            <br>
+            <input type="text" placeholder="First Name">
+           
+            <input type="text" placeholder="Last Name">
+            
+            <br><br>
+            <label>Email</label>
+            <br>
+            <input type="text" placeholder="Email"         class="input">
+            <br><br>
+            <label>Phone number</label>
+            <br>
+            <input type="tel" class="input" placeholder="number">
+            <br><br>
+            <label>What is your address?</label>
+            <br>
+            <input type="text" class="input" placeholder="address">
+            <br><br>
+            <input type="text" id="input" placeholder="state Add">
+            <input type="text" id="input" placeholder="Postal code">
+            <input type="text" class="input2" placeholder="Select Country">
+            <br><br>
+            <label>Occupation</label>
+            <br>
+            <input type="text" class="input" placeholder="T">
+           <br><br>
+           
+            <label>Period of study</label>
+            <br>
+            <input type="text" class="input"  placeholder="T">
+            <br><br>
+            <label>Kindly provide details of other alumni known to you that will love to join the association</label>
+                <br>
+                <label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> <label>Email</label>
+                <br>
+                <input type="text" class="input1"  placeholder="T">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="input1"  placeholder="T">
+                <br><br>
+            <label>Additional comments and suggestions</label>
+            <br>
+            <input type="text" class="last"  placeholder="T">
+            <br><br><br><br>
+            <input type="submit" class="button" onclick="myfun()">
+           
+
+        </form>
+    </Center>
+    <script>
+        function myfun(){
+            alert('your details are submitted')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+body{
+   background: linear-gradient( rgb(11, 150, 209), rgb(5, 21, 126));
+}
+header{
+    margin: 5%;
+    font-size: 40px;
+    font-style:normal;
+    color: white;
+}
+form{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    color: antiquewhite;
+}
+label{
+    float: left;
+}
+input{
+    border-radius: 10px;
+    background-color: rgba(156, 186, 217, 0.948);
+    float: left;
+    height: 25px;
+    
+}
+.input{
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(156, 186, 217, 0.948);
+}
+#input{
+    width: 18%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(156, 186, 217, 0.948);
+
+}
+.input1{
+    height: 25px;
+}
+.input2{
+    height: 25px;
+}
+.last{
+    width: 100%;
+    height: 40px;
+}
+.button{
+    float: right;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
